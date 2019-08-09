@@ -1,5 +1,5 @@
 require File.join(File.dirname(__FILE__), '..', 'app.rb')
-require 'features/web_helpers'
+require_relative './features/web_helpers'
 
 # require './app.rb'
 require 'capybara'

@@ -1,6 +1,6 @@
-feature 'Enter names' do
-  scenario 'submitting names' do
+describe 'Enter names' do
+  it 'submitting names' do
     sign_in_and_play
-    expect(page).to have_content 'Ophelia vs. Mercedes'
+    expect(page).to have_content 'Justin Bieber vs. Tom Cruise'
   end
 end
